@@ -1,0 +1,28 @@
+body {
+  background:#131a20 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQoU2NkIA5IMhKnjmFUId6AAgePJDFhCQDDFAEFiQDatQAAAABJRU5ErkJggg==);
+  color:#e2e2e2;
+  font-family:abel;
+}
+
+h1, h2, h3 {
+  font-family:vipnagorgialla;
+}
+
+@font-face {
+  font-family:vipnagorgialla;
+  src:url("vipnagorgialla.ttf");
+}
+
+@font-face {
+  font-family:abel;
+  src:url("abel-regular.ttf");
+}
+
+a {
+  color:#FFE033;
+  text-decoration-line: none;
+  transition-duration: 0s;
+}
+a:hover {
+  color:#FD70E1;
+}

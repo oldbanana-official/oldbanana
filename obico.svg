@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="obico.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="5.9993856"
+     inkscape:cx="149.76534"
+     inkscape:cy="315.78234"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient22146">
+      <stop
+         style="stop-color:#ffff01;stop-opacity:1"
+         offset="0"
+         id="stop22138" />
+      <stop
+         style="stop-color:#eff610;stop-opacity:1;"
+         offset="0.60860258"
+         id="stop22140" />
+      <stop
+         style="stop-color:#8fc46f;stop-opacity:1;"
+         offset="0.64408481"
+         id="stop22142" />
+      <stop
+         style="stop-color:#007bff;stop-opacity:1"
+         offset="1"
+         id="stop22144" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4814">
+      <stop
+         style="stop-color:#ffff01;stop-opacity:1"
+         offset="0"
+         id="stop4810" />
+      <stop
+         style="stop-color:#eff610;stop-opacity:1;"
+         offset="0.2725845"
+         id="stop5348" />
+      <stop
+         style="stop-color:#8fc46f;stop-opacity:1;"
+         offset="0.30806673"
+         id="stop5414" />
+      <stop
+         style="stop-color:#007bff;stop-opacity:1"
+         offset="1"
+         id="stop4812" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient22146"
+       id="linearGradient4818"
+       x1="24.666637"
+       y1="84.789589"
+       x2="40.333351"
+       y2="84.765198"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.17810305,0.10480125)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4814"
+       id="linearGradient5594"
+       gradientUnits="userSpaceOnUse"
+       x1="24.666637"
+       y1="84.789589"
+       x2="81.975197"
+       y2="84.789589"
+       gradientTransform="translate(-116.87208,-12.473855)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'M+ 2p';-inkscape-font-specification:'M+ 2p';fill:url(#linearGradient4818);fill-opacity:1;stroke-width:0.264583"
+       x="24.202785"
+       y="84.735641"
+       id="text1552"
+       inkscape:export-filename="/home/e/text1552.png"
+       inkscape:export-xdpi="2037.0181"
+       inkscape:export-ydpi="2037.0181"><tspan
+         sodipodi:role="line"
+         id="tspan1550"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'LEMON MILK Pro FTR';-inkscape-font-specification:'LEMON MILK Pro FTR';fill:url(#linearGradient4818);fill-opacity:1;stroke-width:0.264583"
+         x="24.202785"
+         y="84.735641">OB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'M+ 2p';-inkscape-font-specification:'M+ 2p';fill:url(#linearGradient5594);fill-opacity:1;stroke-width:0.264583"
+       x="-92.491196"
+       y="72.156982"
+       id="text5592"><tspan
+         sodipodi:role="line"
+         id="tspan5590"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Handel Gothic';-inkscape-font-specification:'Handel Gothic';fill:url(#linearGradient5594);fill-opacity:1;stroke-width:0.264583"
+         x="-92.491196"
+         y="72.156982">OldBanana</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0.103103;fill-rule:evenodd;stroke:none;stroke-width:0.925087;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2959"
+       width="16.851475"
+       height="16.851475"
+       x="23.954817"
+       y="72.139626"
+       inkscape:export-filename="/home/e/repos/oldbanana/rect2959.png"
+       inkscape:export-xdpi="753.64325"
+       inkscape:export-ydpi="753.64325" />
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+spriteIcon.SubmissionTypeSmall.oldbanana,
+.SpriteIcon.SubmissionTypeSmall.oldbanana {
+  background:url("https://files.gamebanana.com/bitpit/obico2.png");
+  background-position: auto;
+  background-size:28px auto;
+  background-repeat:no-repeat;
+  width:28px;
+  image-rendering:auto !important;
+}

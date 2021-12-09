@@ -1,0 +1,37 @@
+{
+
+  "manifest_version": 2,
+  "name": "OldBanana",
+  "version": "1.0",
+
+  "description": "Attempts to reconstruct old features that Gamebanana removed or ruined.",
+
+  "icons": {
+    "48": "obico.png",
+    "96": "obico.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.gamebanana.com/*"],
+      "js":["gbcpn.js", "obthemebtn.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "background": {
+	"scripts": ["core.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "obico.png",
+    "default_title": "OldBanana",
+    "default_popup": "settings.htm"
+  },
+  
+  "externally_connectable": {
+      "matches": ["*://*.gamebanana.com/*"]
+  }
+
+}
+
