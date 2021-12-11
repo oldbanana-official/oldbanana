@@ -59,7 +59,7 @@ button.bigbutton {
 	border:none;
 	border-top:5px solid #6EE16C;
 	border-bottom:10px solid #111;
-	font-family:abel;
+	font-family:rusq;
 	background:#333;
 	width:300px;
 	height:75px;
@@ -74,8 +74,6 @@ button.bigbutton:hover {
 	margin-top:3px;
 	border-top:5px solid #FFE033;
 	border-bottom:7px solid #111;
-	font-family:abel;
-	background:#333;
 	width:300px;
 	height:72px;
   color:#fff;
@@ -89,7 +87,6 @@ button.bigbutton:active {
 	margin-top:7px;
 	border-top:5px solid #ff4e4e;
 	border-bottom:0px solid #111;
-	font-family:abel;
 	background:#333;
 	width:300px;
 	height:65px;
@@ -103,7 +100,7 @@ button.bigbutton.fixed {
 	border:none;
 	border-top:5px solid #6EE16C;
 	border-bottom:10px solid #111;
-	font-family:abel;
+	font-family:rusq;
 	background:#333;
 	width:calc(100% + 10px);
 	margin-left:-10px;
