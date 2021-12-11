@@ -1,0 +1,40 @@
+{
+  "ob-options": {
+    "nav-enabled": false,
+    "nav-options": {},
+    "themes-enabled": true,
+    "themes-options": {
+      "themes": [
+        {
+          "enabled": true,
+          "location": "https://gamebanana.com/scripts/10787"
+        }
+      ]
+    },
+    "misc-options": {
+      "normalize": true,
+      "input": {
+        "blockquotes": true,
+        "charcounter": true
+      },
+      "enhancements": {
+        "bug-fixes": {
+          "pixelate-spriteicons": true,
+          "fix-statsmodule-overflow": true
+        },
+        "classic-breadcrumbs": true,
+        "remove-icon-from-status": true,
+        "floating-trash-button": true,
+        "pixelate-upics": true,
+        "pixelate-avatars": true,
+        "bigger-memos-box": true,
+        "upic-hover-shadows": true,
+        "tooltip-shadows": false,
+        "tooltip-glass": false,
+        "signature-align-right": false,
+        "secondarynav-hover-animations": false,
+        "secondarynav-pulsing-indicators": false
+      }
+    }
+  }
+}
