@@ -2,9 +2,67 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="generic.css">
-		<style>body{width:640px;height:480px;}</style>
+		<style>
+		body{
+			width:640px;
+			height:480px;
+			box-shadow:0px 0px 10px inset black;
+			margin:0px !important;
+			padding-top:1px; /*setting this to 0 causes a stupid bug*/
+			padding-left:10px;
+			padding-right:10px;
+			overflow:hidden scroll;
+		}
+
+.green {
+	color:#6EE16C !important;
+}
+
+.red {
+	color:#ff4e4e !important;
+}</style>
+		<script>
+			
+		</script>
 	</head>
 	<body>
-		
+		<p><font class="red">Deleting your browser's local storage will reset these settings.</font><br>
+		Refresh Gamebanana to see your changes.</p>
+		<p>
+			<form name="obInternalSettingsPopout">
+			
+			<div id="settings-form-content-1" class="settings-form-tab-content">
+				
+				<h2>General Enhancements</h2>
+				
+				<input type="checkbox" name="enable-gbcpn" disabled></input>
+				<label for="enable-gbcpn">Enable Custom Nav</label>
+				
+				<div class="indent-1 no-boundary">
+					<span class="notice">This feature is work in progress.</span>
+				</div>
+				
+				<input type="checkbox" name="enable-gbcpn"></input>
+				<label for="enable-gbcpn">Enable UI Themes</label>
+				
+				<div class="indent-1">
+				
+				</div>
+				
+				<h2>Misc. Enhancements</h2>
+				
+				<input type="checkbox" name="enable-gbcpn"></input>
+				<label for="enable-gbcpn">Enable Custom Nav</label>
+				
+				<div class="indent-1">
+					
+				</div>
+				
+			</div>
+			
+			<div id="bottom-margin"></div>
+				<button class="bigbutton fixed" type="button">Save</button>
+			</form>
+		</p>
 	</body>
 </html>
