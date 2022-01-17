@@ -24,7 +24,7 @@
   },
 
   "browser_action": {
-    "default_icon": "obico.png",
+    "default_icon": "images/obico.png",
     "default_title": "OldBanana",
     "default_popup": "settings.htm"
   },
