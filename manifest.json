@@ -4,11 +4,11 @@
   "name": "OldBanana",
   "version": "1.0",
 
-  "description": "Attempts to reconstruct old features that Gamebanana removed or ruined.",
+  "description": "The Gamebanana Enhancement Project, by bonkmaykr",
 
   "icons": {
-    "48": "obico.png",
-    "96": "obico.png"
+    "48": "images/obico.png",
+    "96": "images/obico.png"
   },
 
   "content_scripts": [
