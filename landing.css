@@ -1,0 +1,23 @@
+div#landing1 {
+  text-align: center;
+  background-attachment: fixed !important;
+  background-position: center;
+  background-size: cover;
+  background:url(https://files.gamebanana.com/bitpit/3e24e451c44085cf015f37241ed33646f5.jpeg);
+  padding:60px;
+  font-size:2vw;
+  text-shadow:0px 0px 5px white, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+}
+
+div#landing2 {
+  text-align: center;
+  background:#222222ff;
+  padding:30px;
+  border:5px outset #232323;
+  margin-top:5px;
+  box-shadow:0px 0px 5px #333;
+}
+
+body {
+  background: #111111;
+}
