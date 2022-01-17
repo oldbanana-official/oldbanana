@@ -55,6 +55,10 @@ cpn_observer.observe(primaryNavTarget, {
           subtree: false
         });
 
+obLoadCPN(); 	// 2022 update probably fucked up the process by 
+				// changing the way the nav loads, this should 
+				// force it to load each time
+
 function obLoadCPN() {
 
 // check to see if OldBanana was the one that triggered this change or not. 
@@ -82,7 +86,7 @@ obNavTag.style = "display:none;pointer-events:none;";
 primaryNavTarget.appendChild(obNavTag);
 
 // use the original site logo for compatibility with updated ubers. there's no need to revert it
-var gbcpnSiteLogo = htmlToElement("<a id=\"SiteLogo\" href=\"/\"><spriteicon class=\"NavModuleIcon BananaNavModuleIcon\"></spriteicon><img src=\"https://images.gamebanana.com/static/img/logo.png\" alt=\"Logo\"></a>");
+var gbcpnSiteLogo = htmlToElement("<a id=\"SiteLogo\" href=\"/\"><spriteicon class=\"SacredBanana\"></spriteicon><img src=\"https://images.gamebanana.com/static/img/logo.png\" alt=\"Logo\"></a>");
 obReportInfo("rebuilt site logo");
 //primaryNavTarget.appendChild(gbcpnSiteLogo); // this causes a border-left where there shouldn't be one
 document.querySelector("#obNavIdentifier_DONOTMODIFY_DONOTCOPY_DONOTINTERFERE").before(gbcpnSiteLogo);
