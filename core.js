@@ -16,6 +16,8 @@
 *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+// 8=====================================================================================D
+
 window.console.info("[OldBanana] OldBanana, by bonkmaykr");
 
 window.console.info("OLDBANANA LOADED");
