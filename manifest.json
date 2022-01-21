@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.gamebanana.com/*"],
-      "js":["gbcpn.js", "obthemebtn.js", "obconstant.js"],
+      "js":["gbcpn.js", "obconstant.js"],
       "run_at": "document_end",
       "all_frames": "true"
     }
