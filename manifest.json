@@ -16,7 +16,7 @@
       "matches": ["*://*.gamebanana.com/*"],
       "js":["gbcpn.js", "obconstant.js"],
       "run_at": "document_end",
-      "all_frames": "true"
+      "all_frames": true
     }
   ],
 
