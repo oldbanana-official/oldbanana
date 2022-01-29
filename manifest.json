@@ -5,6 +5,11 @@
   "version": "1.0",
 
   "description": "The Gamebanana Enhancement Project, by bonkmaykr",
+	
+  "developer": {
+  "name": "bonkmaykr",
+  "url": "https://bonkmaykr.xyz/"
+  },
 
   "icons": {
     "48": "images/obico.png",
