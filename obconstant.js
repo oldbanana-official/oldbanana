@@ -16,9 +16,6 @@
 *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-//var obFUCKSHITASS = document.createElement("script");
-//obFUCKSHITASS.innerHTML = obHttpGet("dom-scripts/developers.js");
-
 function obHttpGet(url)
 {
     var xmlHttp = new XMLHttpRequest();
@@ -32,7 +29,6 @@ function obReportInfo(string) {
 	window.console.info("[OldBanana] " + string);
 }
 
-//function obAddStaffIcons() {
 // are these names overkill?
 var obDeveloperIconsSheetBuffer = "/*Adds indicators to avatars of every Oldbanana developer*/\n"; //hold entire css until completed
 var obDeveloperIconsSelectorBuffer = ""; //use to calculate result per user
@@ -82,6 +78,3 @@ var obDeveloperIconsSheet = document.createElement("style");
 obDeveloperIconsSheet.innerHTML = obDeveloperIconsSheetBuffer;
 document.head.appendChild(obDeveloperIconsSheet);
 //todo: donors and testers
-//}
-
-//obAddStaffIcons();
