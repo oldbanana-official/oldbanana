@@ -86,7 +86,7 @@ obNavTag.style = "display:none;pointer-events:none;";
 primaryNavTarget.appendChild(obNavTag);
 
 // use the original site logo for compatibility with updated ubers. there's no need to revert it
-var gbcpnSiteLogo = htmlToElement("<a id=\"SiteLogo\" href=\"/\"><spriteicon class=\"SacredBanana\"></spriteicon><img src=\"https://images.gamebanana.com/static/img/logo.png\" alt=\"Logo\"></a>");
+var gbcpnSiteLogo = htmlToElement("<a id=\"SiteLogo\" href=\"/\"><img class=\"SacredBanana\" src=\"https://images.gamebanana.com/static/img/banana.png\" alt=\"Logo\"><img src=\"https://images.gamebanana.com/static/img/logo.png\" alt=\"Logo\"></a>");
 obReportInfo("rebuilt site logo");
 //primaryNavTarget.appendChild(gbcpnSiteLogo); // this causes a border-left where there shouldn't be one
 document.querySelector("#obNavIdentifier_DONOTMODIFY_DONOTCOPY_DONOTINTERFERE").before(gbcpnSiteLogo);
