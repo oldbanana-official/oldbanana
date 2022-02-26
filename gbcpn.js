@@ -64,7 +64,6 @@ function obLoadCPN() {
 // check to see if OldBanana was the one that triggered this change or not. 
 // if not, rebuild the nav.
 if(document.querySelectorAll("#obNavIdentifier_DONOTMODIFY_DONOTCOPY_DONOTINTERFERE")[0] == null || document.querySelectorAll("#obNavIdentifier_DONOTMODIFY_DONOTCOPY_DONOTINTERFERE")[0].parentElement != primaryNavTarget){
-obNumberOfInvoluntaryNavReloads++;
 if (obNumberOfInvoluntaryNavReloads <= 0) {
 	obReportInfo("Original Nav Loaded, let's get ready to rock!");
 	obReportInfo("loading custom nav");
@@ -72,6 +71,7 @@ if (obNumberOfInvoluntaryNavReloads <= 0) {
 	obReportWarning("The custom nav had to be reloaded because something interfered with it. It's possible Gamebanana is still trying to load it's own nav on top. The custom nav will need to be rebuilt.");
 	obReportInfo("reloading custom nav");
 }
+obNumberOfInvoluntaryNavReloads++;
 
 // delete the contents of the original nav
 document.getElementById("PrimaryNav").innerHTML = "";
