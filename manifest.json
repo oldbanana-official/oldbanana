@@ -37,7 +37,11 @@
   
   "externally_connectable": {
       "matches": ["*://*.gamebanana.com/*"]
-  }
+  },
+
+  "permissions": [
+    "*://oldbanana-official.github.io/*"
+  ]
 
 }
 
